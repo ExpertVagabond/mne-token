@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+out/
+artifacts/
+cache_hh/
+cache/
+typechain-types/
+
+# Environment
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

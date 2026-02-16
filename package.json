@@ -1,0 +1,21 @@
+{
+  "name": "mne-token",
+  "version": "1.0.0",
+  "description": "MNE Governance Token & Vesting Contracts",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "forge test -vvv",
+    "deploy:local": "hardhat run scripts/deploy.ts --network hardhat",
+    "fmt": "forge fmt"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0",
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0"
+  }
+}
